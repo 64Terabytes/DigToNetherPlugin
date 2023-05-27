@@ -1,0 +1,32 @@
+# How often to check if a creature needs to be teleported to a dimension in ticks.
+# 1 second = 20 ticks.
+# Default: 3
+dimension_teleport_check: 3
+
+# If true: When digging, 1 block in the overworld will equal 8 blocks in the nether, same as a portal.
+# If false: You will end up at the exact same coordinates when digging to the nether. (This does not affect portals)
+# Default: false
+use_nether_coordinates: false
+
+# If true: A block will be placed under a creature when returning to the overworld if air is under them.
+# If false: A block won't be placed under the creature if air is under them. (This may result in the entity falling back down and getting stuck!)
+# Default: true
+replace_air_on_overworld_return: true
+
+# The block that replaces air.
+# MUST BE FROM THIS LIST: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+air_replacement: COBBLESTONE
+
+# NOTE: TURNING THIS ON WILL HEAVILY LAG AND SOMETIMES CRASH YOUR SERVER!!
+# If true: All bedrock near the bottom of the world will automatically be replaced with set block when a new chunk is loaded.
+# If false: Bedrock will be unchanged.
+# Default: false
+replace_bedrock_in_new_chunk: false
+
+# The block that replaces bedrock.
+# MUST BE FROM THIS LIST: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+bedrock_replacement: OBSIDIAN
+
+# Portals will not be created when lit.
+# NOTE: This will not remove existing portals.
+disable_nether_portal_creation: false

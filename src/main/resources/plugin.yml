@@ -1,0 +1,17 @@
+name: DigToNether
+version: '${project.version}'
+main: io.github._64terabytes.digtonether.DigToNether
+api-version: 1.19
+prefix: DigToNether
+load: STARTUP
+authors: [64Terabytes]
+description: '${project.description}'
+website: https://example.com/
+permissions:
+  dtn.admin:
+    description: Allows access to the replacebedrockinchunk command.
+    default: op
+commands:
+  replacebedrockinchunk:
+    description: Converts all bedrock in the chunk you are standing in to the set replacement block
+    usage: /<command>
