@@ -1,11 +1,11 @@
 name: DigToNether
-version: '1.0-SNAPSHOT'
+version: '1.0'
 main: io.github._64terabytes.digtonether.DigToNether
 api-version: 1.19
 prefix: DigToNether
 load: STARTUP
 authors: [64Terabytes]
-description: 'AAAAAAAAA'
+description: 'Allows players to enter the Nether by digging to the bottom of the world.'
 website: https://example.com/
 permissions:
   dtn.admin:

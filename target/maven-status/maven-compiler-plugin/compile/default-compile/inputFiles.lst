@@ -1,7 +1,7 @@
-D:\Code\DigToNether\src\main\java\io\github\_64terabytes\digtonether\Metrics.java
-D:\Code\DigToNether\src\main\java\io\github\_64terabytes\digtonether\commands\ManualReplaceBedrockCommand.java
-D:\Code\DigToNether\src\main\java\io\github\_64terabytes\digtonether\listeners\CancelNetherRoofSpawn.java
-D:\Code\DigToNether\src\main\java\io\github\_64terabytes\digtonether\DigToNether.java
-D:\Code\DigToNether\src\main\java\io\github\_64terabytes\digtonether\runnables\DimensionTeleport.java
-D:\Code\DigToNether\src\main\java\io\github\_64terabytes\digtonether\listeners\BlockPortalCreation.java
-D:\Code\DigToNether\src\main\java\io\github\_64terabytes\digtonether\listeners\ReplaceBedrock.java
+D:\Code\DigToNetherPlugin\src\main\java\io\github\_64terabytes\digtonether\listeners\BlockPortalCreation.java
+D:\Code\DigToNetherPlugin\src\main\java\io\github\_64terabytes\digtonether\listeners\ReplaceBedrock.java
+D:\Code\DigToNetherPlugin\src\main\java\io\github\_64terabytes\digtonether\listeners\CancelNetherRoofSpawn.java
+D:\Code\DigToNetherPlugin\src\main\java\io\github\_64terabytes\digtonether\runnables\DimensionTeleport.java
+D:\Code\DigToNetherPlugin\src\main\java\io\github\_64terabytes\digtonether\DigToNether.java
+D:\Code\DigToNetherPlugin\src\main\java\io\github\_64terabytes\digtonether\commands\ManualReplaceBedrockCommand.java
+D:\Code\DigToNetherPlugin\src\main\java\io\github\_64terabytes\digtonether\Metrics.java

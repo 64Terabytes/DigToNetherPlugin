@@ -1,11 +1,14 @@
+# Dig to Nether by 64Terabytes
+# For more help with this config, visit: https://github.com/64Terabytes/DigToNetherPlugin/wiki/Config
+
 # How often to check if a creature needs to be teleported to a dimension in ticks.
 # 1 second = 20 ticks.
 # Default: 3
 dimension_teleport_check: 3
 
-# If true: When digging, 1 block in the overworld will equal 8 blocks in the nether, same as a portal.
-# If false: You will end up at the exact same coordinates when digging to the nether.
-# NOTE: This setting does not affect using nether portals.
+# If true: When digging, 1 block in the overworld will equal 8 blocks in the Nether, same as a portal.
+# If false: You will end up at the exact same coordinates when digging to the Nether.
+# NOTE: This setting does not affect using Nether portals.
 # Default: false
 use_nether_coordinates: false
 
@@ -19,9 +22,10 @@ replace_air_on_overworld_return: true
 # Default: COBBLESTONE
 air_replacement: COBBLESTONE
 
-# NOTE: TURNING THIS ON WILL HEAVILY LAG AND SOMETIMES CRASH YOUR SERVER!!
+# NOTE: USING THIS INCORRECTLY WILL HEAVILY LAG AND SOMETIMES CRASH YOUR SERVER.
+# PLEASE READ THIS BEFORE YOU CHANGE THIS OPTION: https://github.com/64Terabytes/DigToNetherPlugin/wiki/Replacing-Bedrock
 # If true: All bedrock near the bottom of the world will automatically be replaced with set block when a new chunk is loaded.
-# If false: Bedrock will be unchanged.
+# If false: Bedrock in new chunks will be unchanged.
 # Default: false
 replace_bedrock_in_new_chunk: false
 

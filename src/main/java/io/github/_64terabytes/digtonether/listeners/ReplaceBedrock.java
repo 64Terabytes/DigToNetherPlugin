@@ -12,6 +12,7 @@ import org.bukkit.plugin.Plugin;
 public class ReplaceBedrock implements Listener {
 
     private final Plugin plugin;
+
     public ReplaceBedrock(Plugin plugin) {
         this.plugin = plugin;
     }
@@ -22,7 +23,7 @@ public class ReplaceBedrock implements Listener {
         if (enableReplace) {
             Chunk chunk = event.getChunk();
             World world = chunk.getWorld();
-            String replacement = replacementToUse();
+            Material replacement = replacementToUse();
             if (event.isNewChunk()) {
                 if (world.getEnvironment() == World.Environment.NORMAL) {
                     int minY = world.getMinHeight();
@@ -32,7 +33,7 @@ public class ReplaceBedrock implements Listener {
                             for (int z = 0; z < 16; z++) {
                                 Block block = chunk.getBlock(x, y, z);
                                 if (block.getType() == Material.BEDROCK) {
-                                    block.setType(Material.valueOf(replacement));
+                                    block.setType(replacement);
                                 }
                             }
                         }
@@ -47,7 +48,7 @@ public class ReplaceBedrock implements Listener {
                                 Block block = chunk.getBlock(x, y, z);
 
                                 if (block.getType() == Material.BEDROCK) {
-                                    block.setType(Material.valueOf(replacement));
+                                    block.setType(replacement);
                                 }
                             }
                         }
@@ -61,7 +62,8 @@ public class ReplaceBedrock implements Listener {
         return plugin.getConfig().getBoolean("replace_bedrock_in_new_chunk");
     }
 
-    private String replacementToUse() {
-        return plugin.getConfig().getString("disable_nether_portal_creation");
+    private Material replacementToUse() {
+        String replacementName = plugin.getConfig().getString("bedrock_replacement");
+        return Material.matchMaterial(replacementName);
     }
 }

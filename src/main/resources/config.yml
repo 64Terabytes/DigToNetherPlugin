@@ -1,3 +1,6 @@
+# Dig to Nether by 64Terabytes
+# For more detail on this config, visit: https://github.com/64Terabytes/DigToNetherPlugin/wiki/Config
+
 # How often to check if a creature needs to be teleported to a dimension in ticks.
 # 1 second = 20 ticks.
 # Default: 3
@@ -19,9 +22,10 @@ replace_air_on_overworld_return: true
 # Default: COBBLESTONE
 air_replacement: COBBLESTONE
 
-# NOTE: TURNING THIS ON WILL HEAVILY LAG AND SOMETIMES CRASH YOUR SERVER!!
+# NOTE: USING THIS INCORRECTLY WILL HEAVILY LAG AND SOMETIMES CRASH YOUR SERVER.
+# PLEASE READ THIS BEFORE YOU CHANGE THIS OPTION: https://github.com/64Terabytes/DigToNetherPlugin/wiki/Replacing-Bedrock
 # If true: All bedrock near the bottom of the world will automatically be replaced with set block when a new chunk is loaded.
-# If false: Bedrock will be unchanged.
+# If false: Bedrock in new chunks will be unchanged.
 # Default: false
 replace_bedrock_in_new_chunk: false
 
