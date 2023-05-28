@@ -1,4 +1,5 @@
 # Dig to Nether
+![](https://img.shields.io/github/downloads/64Terabytes/DigToNetherPlugin/total?style=flat-square)
 ![](https://img.shields.io/github/repo-size/64Terabytes/DigToNetherPlugin?style=flat-square)
 ![](https://img.shields.io/github/license/64Terabytes/DigToNetherPlugin?style=flat-square)
 
