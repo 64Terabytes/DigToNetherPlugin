@@ -4,7 +4,7 @@
 
 Teleports players to The Nether when they have dug to the bottom of the world.
 
-[Download the latest release](https://github.com/64Terabytes/DigToNetherPlugin/releases/) (Not functional yet)
+[Download the latest release](https://github.com/64Terabytes/DigToNetherPlugin/releases/latest)
 
 
 
