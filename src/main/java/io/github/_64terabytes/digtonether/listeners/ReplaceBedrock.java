@@ -19,17 +19,14 @@ public class ReplaceBedrock implements Listener {
     @EventHandler
     public void onChunkLoad(ChunkLoadEvent event) {
         boolean enableReplace = isReplaceBedrockEnabled();
-
         if (enableReplace) {
             Chunk chunk = event.getChunk();
             World world = chunk.getWorld();
             String replacement = replacementToUse();
-
             if (event.isNewChunk()) {
                 if (world.getEnvironment() == World.Environment.NORMAL) {
                     int minY = world.getMinHeight();
                     int maxY = minY + 5;
-
                     for (int x = 0; x < 16; x++) {
                         for (int y = minY; y < maxY; y++) {
                             for (int z = 0; z < 16; z++) {

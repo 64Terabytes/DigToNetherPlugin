@@ -5,7 +5,6 @@ import io.github._64terabytes.digtonether.listeners.BlockPortalCreation;
 import io.github._64terabytes.digtonether.listeners.CancelNetherRoofSpawn;
 import io.github._64terabytes.digtonether.listeners.ReplaceBedrock;
 import io.github._64terabytes.digtonether.runnables.DimensionTeleport;
-import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class DigToNether extends JavaPlugin {
@@ -30,7 +29,7 @@ public final class DigToNether extends JavaPlugin {
 
         getCommand("replacebedrockinchunk").setExecutor(command);
 
-        getServer().getConsoleSender().sendMessage("[DigToNether] Plugin has started");
+        getServer().getConsoleSender().sendMessage("DigToNether by 64Terabytes has started");
     }
 
     @Override
@@ -38,6 +37,6 @@ public final class DigToNether extends JavaPlugin {
         // Plugin shutdown logic
 
 
-        getServer().getConsoleSender().sendMessage(ChatColor.AQUA + "[DigToNether] Plugin has stopped");
+        getServer().getConsoleSender().sendMessage("DigToNether has stopped");
     }
 }

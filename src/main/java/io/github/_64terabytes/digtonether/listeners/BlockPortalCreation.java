@@ -5,10 +5,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.world.PortalCreateEvent;
 import org.bukkit.plugin.Plugin;
 
-import static org.bukkit.Bukkit.getServer;
-
 public class BlockPortalCreation implements Listener {
-
     private final Plugin plugin;
     public BlockPortalCreation(Plugin plugin) {
         this.plugin = plugin;
