@@ -5,7 +5,9 @@
 
 Teleports players to The Nether when they have dug to the bottom of the world.
 
-[Download the latest release](https://github.com/64Terabytes/DigToNetherPlugin/releases/latest)
+[Download the latest release](https://github.com/64Terabytes/DigToNetherPlugin/releases/latest) (Downloads will soon be directly on Spigot)
+
+[Download on Modrinth](https://modrinth.com/plugin/digtonether)
 
 
 
