@@ -1,12 +1,12 @@
 # Dig to Nether
-![](https://img.shields.io/github/downloads/64Terabytes/DigToNetherPlugin/total?style=flat-square)
+![](https://img.shields.io/spiget/downloads/110105?label=spigot%20downloads&style=flat-square)
 ![](https://img.shields.io/modrinth/dt/digtonether?label=modrinth%20downloads&style=flat-square)
 ![](https://img.shields.io/github/repo-size/64Terabytes/DigToNetherPlugin?style=flat-square)
 ![](https://img.shields.io/github/license/64Terabytes/DigToNetherPlugin?style=flat-square)
 
 Teleports players to The Nether when they have dug to the bottom of the world.
 
-[Download the latest release](https://github.com/64Terabytes/DigToNetherPlugin/releases/latest) (Downloads will soon be directly on Spigot)
+[Download on Spigot](https://www.spigotmc.org/resources/dig-to-nether.110105/)
 
 [Download on Modrinth](https://modrinth.com/plugin/digtonether)
 
